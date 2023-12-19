@@ -1,0 +1,113 @@
+body {
+    background-image: url(https://i.redd.it/zyipc46j76r41.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    background-color: black;
+    overflow: hidden;
+}
+.container ul {
+    display: flex;
+}
+.container li {
+    float: left;
+}
+.container a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.container a:hover {
+    background-color: #555;
+    color: white;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li {
+    float: left;
+}
+li a {
+    display: flex;
+    color: white;
+    text-align: center;
+    padding: 15px 50px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: rgb(20, 223, 13);
+}
+.shua a {
+    display: block;
+    padding: 10px;
+    background-color: rgb(0, 0, 0);
+}
+h2 {
+    padding: 20px 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    backdrop-filter: blur(2px);
+    color: black;
+    text-decoration: none;
+    text-align: center;
+}
+h4 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: xx-large;
+}
+.container1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 10px;
+    padding: 50px;
+    max-width: 300px;
+    color: black;
+    text-align: left;
+    margin-left: 5%;
+    background-color: rgb(212, 208, 208);
+}
+.container1:hover {
+    padding: 100px;
+    transition: 2s;
+}
+p {
+    text-indent: 50px;
+    word-spacing: .50px;
+    line-height: 1.5;
+    font-size: medium;
+    text-decoration: solid;
+    margin: 0;
+    padding: 0;
+}
+.flex {
+    display: flex;
+}
+.flex h3 {
+    margin-left: 400px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    backdrop-filter: blur(2px);
+    color: black;
+    text-decoration: none;
+}
+.pic img {
+    height: 280px;
+    width: 500px;
+    border-radius: 30px;
+    display: block;
+    margin-left: 100px;
+    margin-top: 50px;
+    padding: 0;
+    border-radius: 19px;
+}
+.pic img:hover {
+    transition: 2s;
+    padding: 50px;
+}
